@@ -1,42 +1,25 @@
+# heshlist v0.1
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+#### Description
+Django website I made to aggregate skateboard videos across different youtube channels. Focused on finding "full" skate videos and not clips.
+
+Also has list of resources, shops, message boards, magazines, skateparks, charities, podcasts.
+
+### Built With
+* [Python](https://www.python.org/) - Python 3.5 +
+* [Django](https://www.djangoproject.com/)
 
 
-Welcome to your Django project on Cloud9 IDE!
+### Authors
+* **Justin Chase** - [JustinChase](https://github.com/jujum4n)
+    - Idea 
+    - Implementation
 
-Your Django project is already fully setup. Just click the "Run" button to start
-the application. On first run you will be asked to create an admin user. You can
-access your application from 'https://heshlist-jujuman.c9users.io/' and the admin page from 
-'https://heshlist-jujuman.c9users.io/admin'.
+### License
+This project is licensed under the GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Starting from the Terminal
+### Acknowledgments
+* Thanks to anyone who's examples were used
+* Inspiration
+* water
 
-In case you want to run your Django application from the terminal just run:
-
-1) Run syncdb command to sync models to database and create Django's default superuser and auth system
-
-    $ python manage.py migrate
-
-2) Run Django
-
-    $ python manage.py runserver $IP:$PORT
-    
-## Configuration
-
-You can configure your Python version and `PYTHONPATH` used in
-Cloud9 > Preferences > Project Settings > Language Support.
-
-## Support & Documentation
-
-Django docs can be found at https://www.djangoproject.com/
-
-You may also want to follow the Django tutorial to create your first application:
-https://docs.djangoproject.com/en/1.9/intro/tutorial01/
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
