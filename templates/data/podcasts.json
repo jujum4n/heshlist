@@ -1,0 +1,16 @@
+{
+    "title": "Podcasts",
+    "description": "List of Skateboard Podcasts",
+    "contentList": [
+        ["The Nine Club", "https://www.youtube.com/channel/UCw7EwvJ6--_ML2ilnopcG8A"],
+        ["Mostly Skateboarding Podcast", "https://soundcloud.com/mostlyskateboarding"],
+        ["Skate Fillet Podcast", "https://www.youtube.com/user/gfiero3/videos"],
+        ["Fancy Lad Podcast", "https://www.youtube.com/user/bigfancylad/videos"],
+        ["Skateboarder and...", "https://soundcloud.com/skateboarderandpodcast"],
+        ["The Skateboarding Show", "https://soundcloud.com/theskateboardingshow"],
+        ["Skate Motivation Podcast", "https://skatemotivation.com/podcast-feed/"],
+        ["Oj Show", "https://www.youtube.com/watch?v=nACMIAS_-vo"],
+        ["Love Letters", " http://www.vans.com/article_detail/grosso-loveletters.html"],
+        ["Bobshirt Interviews", " http://bobshirt.com/interviews.html"]
+    ]
+}

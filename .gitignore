@@ -1,0 +1,8 @@
+*.pyc
+__init__.py
+*.p
+client_secrets.json
+oauth.json
+migrations
+*sqlite3
+.idea

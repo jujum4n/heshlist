@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %} Heshlist Index {% endblock title %}
+
+{% block magazinelist %}
+    {% for o in magazines %}
+        <div class="list-group-item">
+            <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+        </div>
+    {% endfor %}
+{% endblock magazinelist %}
+
+{% block messageboardlist %}
+    {% for o in messageboards %}
+        <div class="list-group-item">
+            <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+        </div>
+    {% endfor %}
+{% endblock messageboardlist %}
+
+{% block skateparklist %}
+    {% for o in skateparks %}
+        <div class="list-group-item">
+            <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+        </div>
+    {% endfor %}
+{% endblock skateparklist %}
+
+{% block charitylist %}
+    {% for o in charities %}
+    <div class="list-group-item">
+        <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+    </div>
+    {% endfor %}
+{% endblock charitylist %}
+
+{% block resourcelist %}
+    {% for o in resources %}
+        <div class="list-group-item">
+            <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+        </div>
+    {% endfor %}
+{% endblock resourcelist %}
+
+{% block podcastlist %}
+    {% for o in podcasts %}
+    <div class="list-group-item">
+        <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+    </div>
+    {% endfor %}
+{% endblock podcastlist %}
+
+{% block shoplist %}
+    {% for o in shops %}
+        <div class="list-group-item">
+            <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+        </div>
+    {% endfor %}
+{% endblock shoplist %}
+
+{% block videolist %}
+    {% for o in videos %}
+        <div class="list-group-item">
+            <a href="{{ o.1 }}" target="_blank"> {{ o.0 }}</a>
+        </div>
+    {% endfor %}
+{% endblock videolist %}

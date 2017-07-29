@@ -1,0 +1,112 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock title %}</title>
+    <meta name="description" content="Heshlist">
+    <meta name="author" content="Justin C.">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+  	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12" style="padding-left:0px;padding-right:0px;">
+				<nav class="navbar navbar-default navbar-inverse" role="navigation">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="" style="color:white;"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Heshlist</a>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<div class="panel panel-default">
+	  				<div class="panel-heading">	
+	  					<h4 class="text-center"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Magazines</h4>
+	  				</div>
+		  			<div class="panel-body" style="padding:0px;">
+							{% block magazinelist %}{% endblock magazinelist %}
+					</div>
+				</div>
+				<div class="panel panel-default">
+	  				<div class="panel-heading">	
+	  					<h4 class="text-center"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Messageboards</h4>
+	  				</div>
+					<div class="panel-body" style="padding:0px;">
+						{% block messageboardlist %}{% endblock messageboardlist %}
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="panel panel-default">
+	  				<div class="panel-heading">	
+	  					<h4 class="text-center"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Resources/Tools</h4>
+	  				</div>
+					<div class="panel-body" style="padding:0px;">
+						{% block resourcelist %}{% endblock resourcelist %}	
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="panel panel-default">
+		  			<div class="panel-heading">	
+		  				<h4 class="text-center"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Podcasts/Interviews</h4>
+		  			</div>
+					<div class="panel-body" style="padding:0px;">
+						{% block podcastlist %}{% endblock podcastlist %}
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="panel panel-default">
+		  			<div class="panel-heading">	
+		  				<h4 class="text-center"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Skateparks</h4>
+		  			</div>
+					<div class="panel-body" style="padding:0px;">
+						{% block skateparklist %}{% endblock skateparklist %}
+					</div>
+				</div>
+				<div class="panel panel-default">
+	  				<div class="panel-heading">	
+	  					<h4 class="text-center"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Charities/Foundations</h4>
+	  				</div>
+					<div class="panel-body" style="padding:0px;">
+						{% block charitylist %}{% endblock charitylist %}
+					</div>
+				</div>
+			</div>
+						<div class="col-md-2">
+				<div class="panel panel-default">
+	  				<div class="panel-heading">	
+	  					<h4 class="text-center"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Shops</h4>
+	  				</div>
+					<div class="panel-body" style="padding:0px;">
+						{% block shoplist %}{% endblock shoplist %}
+					</div>
+				</div>
+			</div>
+						<div class="col-md-2">
+				<div class="panel panel-default">
+		  			<div class="panel-heading">	
+		  				<h4 class="text-center"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Video</h4>
+		  			</div>
+					<div class="panel-body" style="padding:0px;">
+						{% block videolist %}{% endblock videolist %}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+			    <h5 class="text-center"> Heshlist.org - 2017</h5>
+			    <h5 class="text-center"> Lists are randomly ordered </h5>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "title": "Shops",
+    "description": "List of Skateboard Shops",
+    "contentList": [
+        ["Tactics Skate Shop", "www.tactics.com/skate"],
+        ["CCS Skateshop", "https://shop.ccs.com/"],
+        ["Skatewarehouse", "www.skatewarehouse.com"],
+        ["Warehouse Skateboards", "https://www.warehouseskateboards.com/"],
+        ["Socal Skateshop", "socalskateshop.com/"],
+        ["TGM Skateboards", "tgmskateboards.com"],
+        ["Westside Skateshop", "www.westsideskateshop.com"],
+        ["Active Ride Shop", "http://www.activerideshop.com/"],
+        ["NHS Distrobution", "www.nhsfunfactory.com"],
+        ["Crailtap Distrobution", "https://crailstore.com/"],
+        ["Baker Skateboards", "https://shop.bakerskateboards.com/"],
+        ["Element Skateboards", "https://us.elementbrand.com/mens/shop/skateboard-decks"],
+        ["Consolidated Skateboards", "https://consolidated-skateboards.myshopify.com/"],
+        ["Ska8mafia Skateboards", "www.sk8mafia4life.com/store"],
+        ["Kayo Distrobution", "https://www.thekayostore.com"]
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Messageboards",
+    "description": "List of Skateboard Messageboards",
+    "contentList": [
+        ["/r/skateboarding", "https://www.reddit.com/r/skateboarding/"],
+        ["SLAP Forum", "http://www.slapmagazine.com/component/option,com_jfusion/Itemid,4/"],
+        ["Skateboard-City","http://www.skateboard-city.com"],
+        ["Sidewalk Mag", "http://forums.sidewalkmag.com/"]
+    ]
+}

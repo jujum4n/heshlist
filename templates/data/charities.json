@@ -1,0 +1,12 @@
+{
+    "title": "Charities",
+    "description": "List of Skateboard Charities/Foundation",
+    "contentList": [
+        ["Tony Hawk Foundation", "http://tonyhawkfoundation.org"],
+        ["The Sheckler Foundation", "http://www.shecklerfoundation.org"],
+        ["Skate for Change", "http://skateforchange.org"],
+        ["A.Skate", "http://askate.org"],
+        ["Skate Aid", "http://www.skate-aid.org/en"],
+        ["Skateistan", "https://skateistan.org"]
+    ]
+}

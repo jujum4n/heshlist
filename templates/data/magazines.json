@@ -1,0 +1,10 @@
+{
+    "title": "Magazines",
+    "description": "List of Skateboard Magazines",
+    "contentList": [
+        ["Thrasher Magazine", "https://www.thrashermagazine.com"],
+        ["The Skateboard Mag", "http://theskateboardmag.com"],
+        ["Transworld Skateboarding", "http://skateboarding.transworld.net"],
+        ["LOWCARD Mag", "http://www.lowcardmag.com"]
+    ]
+}

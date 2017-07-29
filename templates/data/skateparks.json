@@ -1,0 +1,10 @@
+{
+    "title": "Skateparks",
+    "description": "List of Skateboard Parks",
+    "contentList": [
+        ["concrete Disciples Directory", "https://www.concretedisciples.com/skatepark-directory"],
+        ["Skatepark Hunter", "http://www.skateparkhunter.com"],
+        ["Skatepark.com Map","http://skatepark.com/skateparkmap.php"],
+        ["Skateboard.com.au Search", "http://www.skateboard.com.au/v2/index.cfm?smithgrind=search"]
+    ]
+}
